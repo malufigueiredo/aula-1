@@ -1,0 +1,29 @@
+1. Diferenças entre Python, JavaScript e C++
+Python: A sintaxe é simples e direta, quase como escrever em inglês. É muito usado em várias áreas, desde análise de dados até desenvolvimento web. Sabe aquele programa que você quer criar rapidinho para testar uma ideia? Python é perfeito para isso. Você não precisa se preocupar muito com detalhes técnicos, o que torna a linguagem acessível tanto para iniciantes quanto para veteranos.
+JavaScript: Se você já mexeu em alguma página web interativa, é quase certo que o JavaScript estava ali, nos bastidores, fazendo a mágica acontecer. Ele é essencial para criar interfaces dinâmicas e responsivas, e com o Node.js, pode até ser usado para criar servidores web. Então, se seu negócio é fazer a web ganhar vida, JavaScript é a escolha certa.
+C++: é a linguagem dos engenheiros de software e dos desenvolvedores de jogos. Ela dá muito poder ao programador, permitindo um controle detalhado sobre o hardware. Mas, com grande poder vem grande responsabilidade: é preciso ser cuidadoso com a memória e o desempenho. Se você está trabalhando em algo que precisa ser super eficiente e rápido, como um jogo ou um sistema operacional, C++ é o caminho a seguir.
+
+ 2. Criando um Código em Cada Linguagem
+Agora, vamos ver como dizer um simples "Hello, World!" em cada uma dessas linguagens. Pense nisso como o "Olá, Mundo!" dos programadores, o primeiro passo para começar qualquer jornada de aprendizado.
+Python:
+python
+print("Hello, World!")
+O que está acontecendo? Aqui, o Python simplesmente pega o texto entre aspas e mostra na tela. Fácil, não é?
+JavaScript:
+javascript
+console.log("Hello, World!");
+E aqui? O JavaScript faz algo parecido, mas usamos console.log para mandar a mensagem para o console do navegador ou do Node.js.
+
+C++:
+cpp
+#include <iostream>
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+Parece mais complexo? Com C++, precisamos de mais algumas linhas. Aqui, incluímos uma biblioteca (<iostream>) que permite a saída de texto, e então, dentro da função main, usamos std::cout para imprimir a mensagem.
+
+3. Executando os Códigos
+- Python: Basta salvar o código em um arquivo .py e rodar no terminal com python nome_do_arquivo.py. É rápido e fácil!
+  - JavaScript: Se você está no navegador, pode colar o código no console do desenvolvedor (aperte F12 no Chrome ou Firefox). Se estiver usando Node.js, é só salvar o código em um .js e rodar com node nome_do_arquivo.js.
+  - C++: Esse é um pouquinho diferente. Primeiro, você precisa compilar o código com um comando como g++ nome_do_arquivo.cpp -o nome_do_programa, e depois rodar o programa que foi gerado.
