@@ -1,0 +1,19 @@
+um exemplo simples em Python que implementa tanto uma estrutura de repetição (loop) quanto uma estrutura de tomada de decisão (if-else).
+
+python
+# Estrutura de repetição (loop for)
+for i in range(5):
+    print(f"Iteração {i+1}")
+
+# Estrutura de tomada de decisão
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print(f"{numero} é par.")
+else:
+    print(f"{numero} é ímpar.")
+
+
+Explicação:
+1. Estrutura de repetição: O for loop executa cinco iterações, imprimindo o número da iteração.
+2. Estrutura de tomada de decisão: O programa pede ao usuário para inserir um número. Em seguida, verifica se o número é par ou ímpar usando o operador módulo (%), e exibe uma mensagem correspondente.
