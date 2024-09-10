@@ -1,0 +1,14 @@
+def imprime_vogais(texto):
+    # Definimos quais são as vogais
+    vogais = "aeiouAEIOU"
+    
+    # Percorremos cada letra no texto
+    for letra in texto:
+        # Se a letra estiver entre as vogais, imprimimos ela
+        if letra in vogais:
+            print(letra, end=' ')  # end=' ' para imprimir na mesma linha
+
+# Exemplo de uso
+palavra = "Exemplo de frase com vogais"
+print("Vogais encontradas:")
+imprime_vogais(palavra)
