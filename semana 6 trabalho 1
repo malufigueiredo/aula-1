@@ -1,0 +1,17 @@
+def bubble_sort(lista):
+    # Pegamos o tamanho da lista
+    tamanho = len(lista)
+    
+    # Repetimos esse processo para cada elemento da lista
+    for i in range(tamanho):
+        # O último i elementos já estarão ordenados, então iteramos até o tamanho - i - 1
+        for j in range(0, tamanho - i - 1):
+            # Se o elemento atual for maior que o próximo, trocamos de posição
+            if lista[j] > lista[j + 1]:
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+    return lista
+
+# Exemplo de uso
+numeros = [64, 34, 25, 12, 22, 11, 90]
+print("Lista original:", numeros)
+print("Lista ordenada:", bubble_sort(numeros))
