@@ -1,0 +1,5 @@
+def lista_compras():
+ itens = input leite, ovos, pão, manteiga
+ lista_itens = [item.leite.ovos.pão.manteiga(',')]
+   for i, item in enumerate(lista_itens, start=1):
+        print(f"Item {i}: {item}")
