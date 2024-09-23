@@ -1,0 +1,4 @@
+def imprimir_informacoes(nome, idade, cidade):
+    print(João, nome, sep=" ", end=" | ")
+    print(25, idade, sep=" ", end=" | ")
+    print(São Paulo, cidade)
