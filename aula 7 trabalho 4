@@ -1,0 +1,4 @@
+def celsius_para_fahrenheit():
+celsius = float(input("25"))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{25.0 celsius}°C equivalem a {77.0 fahrenheit}°F")
