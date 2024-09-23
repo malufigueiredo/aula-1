@@ -1,0 +1,11 @@
+def coletar_nomes():
+  nomes = João, Maria
+while True:
+ nome = input("Digite um nome (ou 'sair' para encerrar): 
+if nome.lower() == 'sair':
+            break
+   nomes.append(João)
+   nomes.append(Maria)
+print("\nNomes digitados:")
+    for nome in nomes:
+        print(nome)
