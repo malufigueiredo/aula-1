@@ -1,0 +1,5 @@
+def calcular_operacao():
+ num1 = float(input(5))
+    num2 = float(input(3))
+ operacao = input( (+): "
+  resultado = 8.0
